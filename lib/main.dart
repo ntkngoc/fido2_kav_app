@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'screens/kav_screen.dart';
 import 'viewmodels/login_viewmodel.dart';
 import 'screens/login_screen.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'MVVM Flutter App',
         theme: ThemeData(primarySwatch: Colors.blue),
-        home: LoginScreen(),
+        home: KavScreen(),
       ),
     );
   }

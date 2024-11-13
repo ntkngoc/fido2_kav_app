@@ -42,3 +42,14 @@ android {
 flutter {
     source = "../.."
 }
+
+dependencies {
+    implementation files('libs/KL_Base_SDK_Android_5.18.0.215_Release.aar')
+    implementation files('libs/KL_Mobile_SDK_Android_5.18.0.215_FullRelease.aar')
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
